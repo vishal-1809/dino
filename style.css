@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lobster", cursive;
+}
+
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmXgl_0mPGNpbMM4kRtO1JAdcAFJ6w-NSPD2zMld2MA7dS6uNqg7dKr6e1d26mLNHAhHQ&usqp=CAU');
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+}
+
+.over {
+    background-color: rgb(192, 15, 15);
+    color: white;
+    padding: 10px;
+    display: none;
+}
+
+.btn {
+    background-color: rgb(10, 8, 8);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(31, 17, 17);
+    color: rgb(18, 177, 18);
+}
+
+.whole {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.grid div {
+    height: 5vw;
+    width: 5vw;
+}
+
+.keys {
+    border-radius: 40px;
+}
+
+.dino {
+    /* background-image: url('https://media.istockphoto.com/vectors/cute-cartoon-dinosaur-dino-vector-id1130319715');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMCYUzwn9AqrzW9O3eTpWoHvIY85o74FDkvA&usqp=CAU');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOQTXjJse3_FNNAMnH0jLdsspKdY-0lD19Dw&usqp=CAU'); */
+    background-image: url('https://image.shutterstock.com/image-vector/cute-childish-blue-dinosaur-vector-260nw-1736244686.jpg');
+    background-size: cover;
+}
+
+.cactus {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7GoGHxb2CipjnJXe7eeoa8woS0qmgmx0MEQ&usqp=CAU');
+    background-size: cover;
+}
+
+.boom {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3ybhps9z-m2t4XTeQcmr9buXgS0p8MLHVzg&usqp=CAU');
+    background-size: cover;
+}
+
