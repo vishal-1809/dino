@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('over').style.display = 'block';
             clearInterval(move);
         }
-    }, time);
+    }, 200);
 
     let scoring = setInterval(() => {
         if (!game) {
